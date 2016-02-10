@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_achievements"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_achievements"
+        android:title="@string/action_achievements"
+    />
+
+    <item
+        android:id="@+id/action_leaderboard"
+        android:orderInCategory="200"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_leaderboard"
+        android:title="@string/action_leaderboard"
+    />
+
+    <item
+        android:id="@+id/action_logout"
+        android:orderInCategory="300"
+        android:showAsAction="always"
+        android:icon="@drawable/ic_action_logout"
+        android:title="@string/action_logout"
+    />
+
+</menu>

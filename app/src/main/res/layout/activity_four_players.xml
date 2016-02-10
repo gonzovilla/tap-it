@@ -1,0 +1,110 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourPlayersActivity" >
+
+    <RelativeLayout
+        android:id="@+id/topLeft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/centerLineHorizontal"
+        android:layout_toLeftOf="@+id/centerLineVertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:rotationX="180.0"
+            android:rotationY="180.0"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/topRight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/centerLineHorizontal"
+        android:layout_toRightOf="@+id/centerLineVertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:rotationX="180.0"
+            android:rotationY="180.0"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/centerLineVertical"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:background="#000000" >
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/centerLineHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_centerInParent="true"
+        android:background="#000000" >
+
+    </RelativeLayout>
+    
+    <TextView
+            android:id="@+id/timeText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="00"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="#000000"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Chronometer
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chronometer4"
+        android:layout_centerInParent="true"
+        android:background="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:id="@+id/bottomLeft"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/centerLineHorizontal"
+        android:layout_toLeftOf="@+id/centerLineVertical" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/bottomRight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/centerLineHorizontal"
+        android:layout_toRightOf="@+id/centerLineVertical" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+
+</RelativeLayout>

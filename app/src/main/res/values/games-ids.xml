@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_id">Add credentials > OAuth 2.0 client ID > Android application in: https://console.developers.google.com/projectselector/apis/credentials</string>
+    <string name="achievement_quick_reaction">First achievement. Follow: https://developers.google.com/games/services/common/concepts/achievements</string>
+    <string name="achievement_right_on_time">Another achievement</string>
+    <string name="achievement_a_fast_minute">Another achievement</string>
+    <string name="achievement_fastest_cowboy">Another achievement</string>
+    <string name="achievement_c_taps">Another achievement</string>
+    <string name="achievement_tap_master">Another achievement</string>
+    <string name="leaderboard_maximum_taps_in_10_seconds">First leaderboard. Follow: https://developers.google.com/games/services/common/concepts/leaderboards</string>
+    <string name="leaderboard_maximum_taps_in_30_seconds">Another leaderboard</string>
+    <string name="leaderboard_maximum_taps_in_60_seconds">Another leaderboard</string>
+    <string name="leaderboard_fastest_50_taps">Another leaderboard</string>
+    <string name="leaderboard_fastest_100_taps">Another leaderboard</string>
+    <string name="leaderboard_fastest_200_taps">Another leaderboard</string>
+</resources>

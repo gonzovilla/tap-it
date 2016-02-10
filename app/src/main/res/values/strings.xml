@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Tap It!</string>
+    <string name="action_leaderboard">Leaderboard</string>
+    <string name="action_achievements">Achievements</string>
+    <string name="action_login">Log in</string>
+    <string name="action_logout">Log out</string>
+    <string name="players">Players:&#160;</string>
+    <string name="mode">Mode:&#160;</string>
+    <string name="taps">Taps:&#160;</string>
+    <string name="seconds">Seconds:&#160;</string>
+    <string name="sec">&#160;sec.</string>
+    <string name="time_attack">Time attack</string>
+    <string name="tap_go">Tap &amp; Go!</string>
+    <string name="play">PLAY</string>
+    <string name="players_missing">Please introduce the number of players</string>
+    <string name="mode_missing">Please introduce the game mode</string>
+    <string name="seconds_missing">Please introduce the time</string>
+    <string name="taps_missing">Please introduce the number of taps</string>
+    <string name="dialog_title_time">Time is over!</string>
+    <string name="dialog_title_taps">Taps reached!</string>
+    <string name="dialog_message_time">Total taps:&#160;</string>
+    <string name="dialog_message_taps">Total time:&#160;</string>
+    <string name="try_again">Do you want to try again?</string>
+    <string name="play_again">Do you want to play again?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="green_player">Green player wins</string>
+    <string name="red_player">Red player wins</string>
+    <string name="yellow_player">Yellow player wins</string>
+    <string name="blue_player">Blue player wins</string>
+    <string name="tie">It was a tie</string>
+    <string name="final_score">Final score:</string>
+
+    <string name="sign_in_failed">Failed to sign in. Please check your network connection and try again.</string>
+    <string name="app_misconfigured">The application is incorrectly configured. Check that the package name and signing certificate match the client ID created in Developer Console. Also, if the application is not yet published, check that the account you are trying to sign in with is listed as a tester account. See logs for more information.</string>
+    <string name="license_failed">License check failed.</string>
+    <string name="unknown_error">Unknown error.</string>
+
+    <string name="achievements_not_available">Please sign in to view achievements.</string>
+    <string name="leaderboards_not_available">Please sign in to view leaderboards.</string>
+    <string name="signin_other_error">There was an issue with sign in.  Please try again later.</string>
+
+</resources>
