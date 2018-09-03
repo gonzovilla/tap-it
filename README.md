@@ -12,7 +12,7 @@ Afterwards, create your own "google-services.json" configuration file from the s
 ## Working app
 
 The last version of the app can be downloaded for free from: [Tap It!](https://play.google.com/store/apps/details?id=com.cyclopsdev.tapit)  
-My other apps can also be downloaded from: [CyclOps Development apps](https://play.google.com/store/search?q=pub%3ACyclOps%20Development).
+My other apps can also be downloaded from: [CyclOps Development apps](https://play.google.com/store/apps/developer?id=CyclOps+Development).
 
 
 ## Contact
